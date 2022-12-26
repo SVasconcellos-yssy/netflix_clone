@@ -31,20 +31,12 @@ const makeCategoryElement = (category, data) =>{
             <button class="pre-btn">
                 <img src="" alt="previous button">
             </button>
-
-
             <h1 class="movie-category">${category.replace("_", " ")}</h1>
-
-            <div class="movie-container" id="${category}">
-              
-                </div>
-            </div>
-
+            <div class="movie-container" id="${category}"></div>
             <button class="next-btn">
                 <img src="" alt="next  button">
-            </button>
-
-        </div>
+            </button>       
+    </div>
     `
 
     makeCards(category, data)
